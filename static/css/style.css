@@ -86,6 +86,7 @@ h1 {
   text-wrap: balance;
 }
 
+h2::before,
 h3::before,
 h4::before,
 h5::before,
@@ -300,10 +301,16 @@ textarea {
 .titleList li {
   margin-bottom: .75rem;
 }
-.titleList .postDate {
+
+.titleList .date {
   margin-left: .9rem;
   font-size: 65%;
   font
+}
+
+.titleList .description {
+  margin-left: 4rem;
+  font-size: 85%;
 }
 
 .footnote-definition {

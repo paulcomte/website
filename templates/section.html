@@ -12,12 +12,26 @@
 {% endif %}
 
 <ul class="titleList">
-{% for page in pages %}
-  <li>
-    <span class="postTitle">
-    <a href="{{ page.permalink | safe }}">{{ page.title }}</a></span><span class="postDate">{{ page.date | date(format="%B %Y") }}</span>
-  </li>
-{% endfor %}
+{% if section.title == "Projects" %}
+  {% for page in pages %}
+    <li>
+      <div class="project">
+        <span class="title">
+        <a href="{{ page.permalink | safe }}">{{ page.title }}</a></span><span class="date">
+        {{ page.date | date(format="%B %Y") }} : {% if page.extra.end_date %} {{ page.extra.end_date | date(format="%B %Y") }} {% else %} ? {% endif %}</span>
+        {% if page.description %}
+      </div>
+      <span class="description">{{ page.description | truncate(length=150) }}</span>{% endif %}
+    </li>
+  {% endfor %}
+{% else %}
+  {% for page in pages %}
+    <li>
+      <span class="title">
+      <a href="{{ page.permalink | safe }}">{{ page.title }}</a></span><span class="date">{{ page.date | date(format="%B %Y") }}</span>
+    </li>
+  {% endfor %}
+{% endif %}
 </ul>
 
 {% if paginator %}
