@@ -6,6 +6,8 @@ extra.toc = true
 tags = ["cpp", "server", "communication"]
 +++
 
+## [Repository](https://github.com/paulcomte/babel/tree/main/protocol)
+
 ## Introduction
 
 During the realization of the `Babel` project, I had to work on a protocol system, to enable interactions between the client and the server.
@@ -38,12 +40,6 @@ If you want more details about the base project, feel free to click [here](/proj
 | :--------------------: | :-----------: |  :-----------: |
 |    <u>**size**</u>     |    1 byte     |     1 byte     |
 |    <u>**value**</u>    |     0x00      |  0x00 => 0xFF  |
-
-> #### - String field
-| <u>**description**</u> |  field_type   |      value     |
-| :--------------------: | :-----------: |  :-----------: |
-|    <u>**size**</u>     |    1 byte     |     1 byte     |
-|    <u>**value**</u>    |     0x04      |  0x00 => 0xFF  |
 
 > #### - Integer field (4 bytes)
 | <u>**description**</u> |  field_type   |       [0]      |      [1]      |      [2]      |      [3]      |

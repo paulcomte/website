@@ -6,6 +6,8 @@ extra.toc = true
 tags = ["c", "graphics"]
 +++
 
+## [Repository](https://github.com/paulcomte/C-ScreenSaver)
+
 ## Introduction
 
 While I was going back to my parents' home, I had 6 hours to kill in the train.
