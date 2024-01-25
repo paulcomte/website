@@ -22,7 +22,7 @@ This project was an `EPITECH` project, the project was defined as followed:
 
 ## Introduction
 
-During this project I wanted to have lots of fun, and on top of the mandatory features, implement other features that should be necessary for every real-time messaging and voice app.
+During this project I wanted to have lots of fun, and on top of the mandatory features, implement other features that to me, should be necessary for every real-time messaging and voice app.
 
 Regarding the interface I decided to take the Discord interface for idea.
 
