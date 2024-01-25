@@ -21,6 +21,4 @@ I can be reached via:
  - Casual inquiries: [contact@paulcomte.cafe](mailto:contact@paulcomte.cafe)
  - Professional email: [hireme@paulcomte.cafe](mailto:hireme@paulcomte.cafe)
 
-## Blog Posts
-
-- 🥣 [Creating a blog](./blog/creating-a-blog)
+## [Access my blog posts](./blog)

@@ -14,7 +14,8 @@
 <ul class="titleList">
 {% for page in pages %}
   <li>
-    <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    <span class="postTitle">
+    <a href="{{ page.permalink | safe }}">{{ page.title }}</a></span><span class="postDate">{{ page.date | date(format="%B %Y") }}</span>
   </li>
 {% endfor %}
 </ul>

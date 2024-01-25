@@ -86,12 +86,6 @@ h1 {
   text-wrap: balance;
 }
 
-h1::before {
-  color: var(--bgColor);
-  content: '# '
-}
-
-h2::before,
 h3::before,
 h4::before,
 h5::before,
@@ -305,6 +299,11 @@ textarea {
 
 .titleList li {
   margin-bottom: .75rem;
+}
+.titleList .postDate {
+  margin-left: .9rem;
+  font-size: 65%;
+  font
 }
 
 .footnote-definition {

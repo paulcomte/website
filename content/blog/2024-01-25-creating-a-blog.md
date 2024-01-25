@@ -1,12 +1,9 @@
 +++
-title = "Creating a blog"
+title = "📝 Creating a blog"
 
 [taxonomies]
 tags = ["web"]
 +++
-
-```toml
-```
 
 It's been a long time since I've wanted a blog.
 
