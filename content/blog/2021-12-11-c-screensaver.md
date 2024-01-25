@@ -1,6 +1,7 @@
 +++
 title = "🖥️ Implementing a screensaver in C"
 extra.toc = true
+
 [taxonomies]
 tags = ["c", "graphics"]
 +++
