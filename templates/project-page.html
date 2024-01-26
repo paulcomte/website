@@ -5,7 +5,7 @@
 <time datetime="{{ page.date }}">Started on: <span class="metaData">{{ page.date }}</span></time>
 <br>
 {% if page.extra.end_date %}
-<time datetime="{{ page.extra.end_date }}">Ended on: <span class="metaData">{{ page.date }}</span></time>
+<time datetime="{{ page.extra.end_date }}">Ended on: <span class="metaData">{{ page.extra.end_date }}</span></time>
 {% endif %}
 {% if config.extra.author and config.extra.display_author == true %}
 <address rel="author">By <span class="metaData">{{config.extra.author}}</span></address>
