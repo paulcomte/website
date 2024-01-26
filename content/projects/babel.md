@@ -58,40 +58,89 @@ And actually, starting by working on the frontend was a good choice for two main
 
 > ### Event system
 
-An event system has to be implemented for the following cases:
+The need for an event system was necessary the following interactions:
 
  - When the user would interact on the client, such as changing the selected contact, or looking for a contact by its name
  - When the server would send a packet to the client.
 
-#### List of implemented events
+<br>
 
- - LOGIN_FAILED
- - LOGOUT
- - CONTACT_FILTER_UPDATE
- - NEW_CONTACT
- - NEW_BULK_CONTACT
- - NEW_MESSAGE
- - NEW_BULK_MESSAGE
- - NEW_CLIENT
- - NEW_CHATTING
- - CALL_STATE_UPDATE
+  - #### LOGIN_FAILED
+
+| <u>**description**</u> |  errorMessage  |
+| :--------------------: | :------------: | 
+| <u>**field_type**</u>  |     string     |
+
+  - #### LOGOUT
+
+| <u>**description**</u> |     empty      |
+| :--------------------: | :------------: | 
+| <u>**field_type**</u>  |     empty      |
+
+  - #### CONTACT_FILTER_UPDATE
+
+| <u>**description**</u> |    newFilter   |
+| :--------------------: | :------------: | 
+| <u>**field_type**</u>  |     string     |
+   
+  - #### NEW_CONTACT
+
+| <u>**description**</u> |      contact       |
+| :--------------------: | :----------------: |
+| <u>**field_type**</u>  | shared_ptr\<Client\> |
+
+  - #### NEW_BULK_CONTACT
+
+| <u>**description**</u> |          contacts          |
+| :--------------------: | :------------------------: | 
+| <u>**field_type**</u>  | vector\<shared_ptr\<Client\>\> |
+ 
+  - #### NEW_MESSAGE
+
+| <u>**description**</u> |        message        |
+| :--------------------: | :-------------------: | 
+| <u>**field_type**</u>  |  shared_ptr\<Message\>  |
+ 
+  - #### NEW_BULK_MESSAGE
+
+| <u>**description**</u> |            messages           |
+| :--------------------: | :---------------------------: | 
+| <u>**field_type**</u>  |  vector\<shared_ptr\<Message\>\>  |
+ 
+  - #### NEW_CLIENT
+
+| <u>**description**</u> |         client        |
+| :--------------------: | :-------------------: | 
+| <u>**field_type**</u>  |   shared_ptr\<Client\>  |
+ 
+  - #### NEW_CHATTING
+
+| <u>**description**</u> |         previousClient        |      newClient       |
+| :--------------------: | :---------------------------: |:-------------------: |
+| <u>**field_type**</u>  |     shared_ptr\<Client\>      |  shared_ptr\<Client\>  |
+ 
+  - #### CALL_STATE_UPDATE
+ 
+| <u>**description**</u> |       update       |
+| :--------------------: | :----------------: |
+| <u>**field_type**</u>  | shared_ptr\<Client\> |
 
 ## Backend architecture
 
 > ### Database system
 
-Every message, and user would be saved on a database.
+  - getMessages(string username) -> vector\<Message\>
+  - getContacts(string username) -> vector\<string\>
 
-> ### PacketHandler system
+> ### [Transporter](https://github.com/paulcomte/babel/blob/main/server/Transporter.hpp):
 
-This system would perform the following steps:
+  Every conneted clients on the server has a `Transporter`, it implements the following functions:
 
-1. Deserialize the packet
-2. Call the the handler for this packet
-
-> ### TCP
-
-Each client connected to the server has a `Transporter`
+  - sendMessage(string)
+  - readMessage(function\<void(string) receivedMessage\> callback)
+  - getHostname() -> string
+  - close()
+  - isClosed() -> bool
 
 ## Difficulties
 
@@ -99,19 +148,27 @@ In this project I encountered a major difficulty, which was with the compilation
 
 I also faced another difficulty, that I sadly could not resolve, the audio library in C++ seems like to not work on Linux, therefore I can only compile the client on Windows if I enable the voice call feature...
 
-## Protocol system
+## [Protocol system](/blog/a-protocol-system)
 
 One of the fundamental point in this project was the protocol system.
 
 It needed to be as flexible and ergonomic as possible.
 
-I implemented a protocol system which I got so proud of that I wrote an article to explain how I proceedeed, if you want more details, feel free to click [here](/blog/a-protocol-system).
+I implemented a protocol system which I got so proud of that [I wrote an article](/blog/a-protocol-system) to explain how I proceedeed.
 
 ## Features
 
- - The icon of an user is generated from his username
+ - The icon of an user is automatically generated from his username.
  - Messages are stacked until `x` amount of time has passed, or `x` amount of messages has been sent.
 
 ## Limitations
 
 Due to the limitations of my architecture, as it wasn't thought in time, and I didn't have time to refactor, the history of messages will only stack if the user switches to another conversation.
+
+## Future?
+
+If I ever get the chance to work on the project again, I would fix the previously cited limitation, and improve the abstraction, such as:
+
+Instead of the following function: `getContacts(string username)`
+
+> I would instead replace the `string` to an `Username` struct/class
