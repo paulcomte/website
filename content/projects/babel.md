@@ -42,7 +42,7 @@ I wanted to have a clearer view of the result I wanted to provide, and also impr
 And actually, starting by working on the frontend was a good choice for two main reasons:
 
  - I did know in advance what features I would have on the client, so no time lost on the backend with unimplemented features on the client-side.
- - I lost a precious time trying to compile the frontend, so if I hard to work on the frontend after the backend I might had not forseen this and I'd be unable to implement all features in time.
+ - I lost a precious time trying to compile the frontend, so if I had to work on the frontend after the backend I might had not forseen this and I'd be unable to implement all features in time.
 
 - ## Frontend architecture
 
