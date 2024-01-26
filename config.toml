@@ -44,5 +44,6 @@ twitter_card = true
 header_nav = [
   { url = "/", name_en = "/home/", name_fr = "/accueil/" },
   { url = "/projects", name_en = "/projects/", name_fr = "/projets/" },
-  { url = "/blog", name_en = "/blog/", name_fr = "/blog/" }
+  { url = "/blog", name_en = "/blog/", name_fr = "/blog/" },
+  { url = "https://github.com/paulcomte", name_en = "/github/", name_fr = "/github" }
 ]
