@@ -7,7 +7,7 @@ Hello, I'm Paul,
 
 I'm a software engineer, specialized in backend development, my favorite languages are: `🦀 Rust` | `☕ Java` | `🛠️ C`!
 
-I come from France 🇫🇷 ! I speak fluently English 🇬🇧, and I'm currently learning Japanese 🇯🇵.
+I come from France 🇫🇷 ! I speak fluent English 🇬🇧, and I'm currently learning Japanese 🇯🇵.
 
 I support FOSS ❤️ 
 
