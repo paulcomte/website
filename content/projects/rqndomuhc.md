@@ -6,7 +6,7 @@ extra.end_date = "2023-06-01"
 extra.toc = true
 +++
 
-## [Repository](https://github.com/paulcomte/rqndomuhc)
+## [Repository](https://github.com/paulcomte/RqndomUHC-API)
 
 ## Introduction
 
