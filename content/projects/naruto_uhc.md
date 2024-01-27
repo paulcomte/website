@@ -15,7 +15,7 @@ The `NarutoUHC` game mode.
 
 I was getting kind of busy as it was soon the beginning of my first year of studies at `EPITECH`, therefore, I declined my friends' offer, and recommended him another developer.
 
-Unfortunately, my friend paid that developer, and during three months we didn't get any news from him, so I pressured the developer into refunding my friend, otherwise I would go and take legal actions.
+Unfortunately, my friend paid that developer, and during three months we didn't get any news from him, therefore, I refunded my friend, and kept pressuring the developer he contacted into refunding the money, otherwise I would go and take legal actions.
 
 Fortunately, during mid-December, the developer refunded my friend, and as it was getting towards the end of my first semester, I decided to work on the project instead.
 

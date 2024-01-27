@@ -1,5 +1,6 @@
 +++
 title = "📡 A protocol system in C++"
+description = "Creating a protocol system in C++ might seem not trivial at first, but actually is fairly pretty simple"
 extra.toc = true
 
 [taxonomies]

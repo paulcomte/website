@@ -1,5 +1,5 @@
 +++
-title = "📱Babel"
+title = "📱 Babel"
 description = "Real-time messaging and voice client in C++"
 date = "2023-03-09"
 extra.end_date = "2023-04-19"

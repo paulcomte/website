@@ -1,5 +1,6 @@
 +++
 title = "🐌 My stance on IDEs"
+description = "I decided to use terminal editors instead of IDEs, even though they might sound complex, in the end, it was a great choice."
 
 [taxonomies]
 tags = ["thoughts", "development"]

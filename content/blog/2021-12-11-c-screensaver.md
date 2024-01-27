@@ -1,5 +1,6 @@
 +++
-title = "🖥️ Implementing a screensaver in C"
+title = "🖥️ Implementing a screensave in C"
+description = "I implemented a screensaver in C with the CSFML graphical library"
 extra.toc = true
 
 [taxonomies]

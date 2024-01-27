@@ -1,5 +1,6 @@
 +++
 title = "📝 Creating a blog"
+description = "As a backend developer my biggest fear is designing a website, this has refrained me from updating my website for a long time."
 
 [taxonomies]
 tags = ["web"]
