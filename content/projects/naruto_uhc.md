@@ -4,6 +4,7 @@ description = "Minecraft Plugin for private UHC games between friends."
 date = "2021-01-08"
 extra.end_date = "2021-09-02"
 extra.toc = true
+weight = 5
 +++
 
 ## [Repository](https://github.com/paulcomte/NarutoUHC)
@@ -26,9 +27,6 @@ I began working on it on the 8th of January 2021.[^1]
 The project uses the following:
  - Java 8 - JDK 8
  - Spigot 1.8.9 library
-
-## Repository: 
-> #### [https://github.com/paulcomte/NarutoUHC/](https://github.com/paulcomte/NarutoUHC/)
 
 ---
 [^1]: [First commit](https://github.com/paulcomte/NarutoUHC/commit/3e0a2f77ed05f7e3d082c5fb1ede6911a50384b3)
