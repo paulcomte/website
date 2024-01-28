@@ -93,4 +93,4 @@ Regarding the `Rust` programming language, there's currently `RustRover` made by
 
 Even though I have a really good laptop nowadays, when using `RustRover` my computer lasts at most 2 hours, and is using 4-6GB of RAM just for the `IDE`, that's crazy.
 
-I also tried out `lapce`, an editor made in `Rust`, and it's actually great! But it lacks stability, if you want to use it, please wait at least some month, maybe a year, until it becomes more stable.
+I also tried out `lapce`, an editor made in `Rust`, and it's actually great! But it lacks stability, if you want to use it, please wait at least some months, maybe a year, until it becomes more stable.
