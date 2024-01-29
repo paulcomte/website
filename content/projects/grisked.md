@@ -15,6 +15,94 @@ weight = 2
 
 ## Introduction
 
+Managing money is important, especially as a student where you have limited resources.
+
+Using google sheets, or excel documents is not trivial, and might be tedious for beginners.
+
+I heard about the app `Microsoft money`, but it was old, no longer supported on newer versions of Windows, so there came the idea to create a similar app by myself.
+
 ## Tech stack
  - Programming language: Rust
  - Window framework: iced.rs
+
+## Architecture
+
+- ### grisked_profile
+
+  <details>
+    <summary>enum BillType</summary>
+
+    ```rust
+    Income,
+    Invoice,
+    ```
+  </details>
+  
+  <details>
+    <summary>struct Bill</summary>
+
+    ```rust
+    bill_type: BillType,
+    name: String,
+    price: f64,
+    due_date: u16,
+    label_id: Option<usize>,
+    ```
+  </details>
+
+  <details>
+    <summary>struct Account</summary>
+
+    ```rust
+    name: String,
+    id: Option<usize>,
+    default_balance: f64,
+    bills: Vec<Bill>,
+    color: [f32; 3],
+    ```
+  </details>
+
+  <details>
+    <summary>struct Currency</summary>
+
+    ```rust
+    symbol: char,
+    name: String,
+    alias: String,
+    convert_rate: f32,
+    ```
+  </details>
+
+  <details>
+    <summary>struct Data</summary>
+
+    ```rust
+    path: Option<String>,
+    accounts: Vec<Acccount>,
+    labels: Vec<Label>,
+    account_id: Option<usize>,
+    ```
+  </details>
+
+  <details>
+    <summary>struct Label</summary>
+
+    ```rust
+    id: usize,
+    name: String,
+    color: [f32; 3],
+    ```
+  </details>
+
+  <details>
+    <summary>struct Settings</summary>
+
+    ```rust
+    path: Option<String>,
+    currencies: Vec<Currency>,
+    ```
+  </details>
+
+- ### grisked_ui
+
+#### Events
