@@ -29,80 +29,119 @@ I heard about the app `Microsoft money`, but it was old, no longer supported on 
 
 - ### grisked_profile
 
-  <details>
-    <summary>enum BillType</summary>
+  - #### Structures and Enums
 
-    ```rust
-    Income,
-    Invoice,
-    ```
-  </details>
+    <details>
+      <summary>enum BillType</summary>
+
+      ```rust
+      Income,
+      Invoice,
+      ```
+    </details>
   
-  <details>
-    <summary>struct Bill</summary>
+    <details>
+      <summary>struct Bill</summary>
 
-    ```rust
-    bill_type: BillType,
-    name: String,
-    price: f64,
-    due_date: u16,
-    label_id: Option<usize>,
-    ```
-  </details>
+      ```rust
+      bill_type: BillType,
+      name: String,
+      price: f64,
+      due_date: u16,
+      label_id: Option<usize>,
+      ```
+    </details>
 
-  <details>
-    <summary>struct Account</summary>
+    <details>
+      <summary>struct Account</summary>
 
-    ```rust
-    name: String,
-    id: Option<usize>,
-    default_balance: f64,
-    bills: Vec<Bill>,
-    color: [f32; 3],
-    ```
-  </details>
+      ```rust
+      name: String,
+      id: Option<usize>,
+      default_balance: f64,
+      bills: Vec<Bill>,
+      color: [f32; 3],
+      ```
+    </details>
 
-  <details>
-    <summary>struct Currency</summary>
+    <details>
+      <summary>struct Currency</summary>
 
-    ```rust
-    symbol: char,
-    name: String,
-    alias: String,
-    convert_rate: f32,
-    ```
-  </details>
+      ```rust
+      symbol: char,
+      name: String,
+      alias: String,
+      convert_rate: f32,
+      ```
+    </details>
 
-  <details>
-    <summary>struct Data</summary>
+    <details>
+      <summary>struct Data</summary>
 
-    ```rust
-    path: Option<String>,
-    accounts: Vec<Acccount>,
-    labels: Vec<Label>,
-    account_id: Option<usize>,
-    ```
-  </details>
+      ```rust
+      path: Option<String>,
+      accounts: Vec<Acccount>,
+      labels: Vec<Label>,
+      account_id: Option<usize>,
+      ```
+    </details>
 
-  <details>
-    <summary>struct Label</summary>
+    <details>
+      <summary>struct Label</summary>
 
-    ```rust
-    id: usize,
-    name: String,
-    color: [f32; 3],
-    ```
-  </details>
+      ```rust
+      id: usize,
+      name: String,
+      color: [f32; 3],
+      ```
+    </details>
 
-  <details>
-    <summary>struct Settings</summary>
+    <details>
+      <summary>struct Settings</summary>
 
-    ```rust
-    path: Option<String>,
-    currencies: Vec<Currency>,
-    ```
-  </details>
+      ```rust
+      path: Option<String>,
+      currencies: Vec<Currency>,
+      ```
+    </details>
+
+  - #### Serialization
+
+    Everything is serialized using the `json` format
 
 - ### grisked_ui
+
+  - #### Structures and Enums
+
+    <details>
+      <summary>enum UpdateBox</summary>
+
+      ```rust
+      LabelName(String),
+      AccountName(String),
+      InvoiceName(String),
+      IncomeName(String),
+      InvoiceAmount(String),
+      IncomeAmount(String),
+      AccountDefaultBalance(String),
+      ```
+    </details>
+
+    <details>
+      <summary>enum Message</summary>
+
+      ```rust
+      MenuChanged(MenuType),
+      KeyPressed(KeyCode, Modifiers),
+      PreviousAccount,
+      NextAccount,
+      SaveRequested,
+      AddAccount,
+      AddLabel,
+      AddInvoice,
+      AddIncome,
+      UpdateBox(UpdateBox),
+      ```
+    </details>
 
 #### Events
