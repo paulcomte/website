@@ -151,6 +151,10 @@ If you want more details about the base project, feel free to click [here](/proj
 | :--------------------: | :------------: | :------------: | :------------: | :-------------: | 
 | <u>**field_type**</u>  |     string     |     string     |     string     |     uint64      |
 
+## Sample implementation
+
+You can check out the [GitHub wiki](https://github.com/paulcomte/babel/wiki) to have more details on an example implementation.
+
 ## Future ?
 
-If I ever get the time to work on my protocol system, I would definitely write a file parser to create packets from simple json files
+If I ever get the time to work on my protocol system, I would definitely write a file parser to create packets from simple json files.
