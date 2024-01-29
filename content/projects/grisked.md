@@ -31,6 +31,8 @@ I heard about the app `Microsoft money`, but it was old, no longer supported on 
 
   - #### Structures and Enums
 
+    *Note: For fields with `#[serde(skip_serializing)]` above their declaration, they're not being serialized, therefore, not saved, as they're only fields for the `grisked_ui` runtime.*
+
     <details>
       <summary>enum BillType</summary>
 
@@ -57,6 +59,7 @@ I heard about the app `Microsoft money`, but it was old, no longer supported on 
 
       ```rust
       name: String,
+      #[serde(skip_serializing)]
       id: Option<usize>,
       default_balance: f64,
       bills: Vec<Bill>,
@@ -79,9 +82,11 @@ I heard about the app `Microsoft money`, but it was old, no longer supported on 
       <summary>struct Data</summary>
 
       ```rust
+      #[serde(skip_serializing)]
       path: Option<String>,
       accounts: Vec<Acccount>,
       labels: Vec<Label>,
+      #[serde(skip_serializing)]
       account_id: Option<usize>,
       ```
     </details>
@@ -100,6 +105,7 @@ I heard about the app `Microsoft money`, but it was old, no longer supported on 
       <summary>struct Settings</summary>
 
       ```rust
+      #[serde(skip_serializing)]
       path: Option<String>,
       currencies: Vec<Currency>,
       ```
@@ -107,11 +113,17 @@ I heard about the app `Microsoft money`, but it was old, no longer supported on 
 
   - #### Serialization
 
-    Everything is serialized using the `json` format
+    > Everything is serialized using the `json` format
+    
+    - ##### `settings.json`
+      *This file stores global settings, not related to any account, you can view them as app settings*
+    
+    - ##### `data.json`
+      *This file stores data related to the user, a list of accounts (themselves storing bills), and user-defined labels*
 
 - ### grisked_ui
 
-  - #### Structures and Enums
+  - #### Event system definitions
 
     <details>
       <summary>enum UpdateBox</summary>
@@ -144,4 +156,27 @@ I heard about the app `Microsoft money`, but it was old, no longer supported on 
       ```
     </details>
 
-#### Events
+  - #### Event system usage
+
+    This event system was made for the user performing interactions on the app.
+    The enum `Message` has self-explanatory members, such as when a user tries to click on the `NextAccount` arrow, or when he creates a new invoice, etc*
+
+  - #### Menus
+  
+    <details>
+      <summary>enum MenuType</summary>
+
+      ```rust
+      #[default]
+      Dashboard,
+      Accounts,
+      AccountData(Account),
+      Deadlines,
+      Charts,
+      Backup,
+      ```
+    </details>
+
+## Difficulties
+
+This project wasn't particulary difficult, or didn't have any complex issues, though implementing the UI style was really time-consuming.
