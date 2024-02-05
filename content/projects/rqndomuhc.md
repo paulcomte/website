@@ -123,6 +123,6 @@ Your UHC plugins needs a team system? No problem, just follow me:
   
   - ### A team system on a player:
   ```
-    GamePlayer gamePlayer; // This needs to be a valide GamePlayer
+    GamePlayer gamePlayer; // This needs to be a valid GamePlayer
     gamePlayer.getValues().add("plugin_name.team", MonsterTeam.class)
   ```
