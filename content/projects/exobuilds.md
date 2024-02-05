@@ -15,7 +15,7 @@ weight = 3
 
 ## Introduction
 
-During 2022, I used to play `League of Legends` with my friends, and they recommended me to use website to get the best champion builds.
+During 2022, I used to play `League of Legends` with my friends, and they recommended me to use a website to get the best champion builds.
 
 A really famous one is [U.GG](https://U.GG).
 
