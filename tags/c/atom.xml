@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Paul Comte - c</title>
+    <subtitle>Paul Comte a backend software engineer, Rust, Java and C</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://paulcomte.cafe/tags/c/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://paulcomte.cafe"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-12-11T00:00:00+00:00</updated>
+    <id>https://paulcomte.cafe/tags/c/atom.xml</id>
+    <entry xml:lang="en">
+        <title>🖥️ Implementing a screensaver in C</title>
+        <published>2021-12-11T00:00:00+00:00</published>
+        <updated>2021-12-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://paulcomte.cafe/blog/c-screensaver/"/>
+        <id>https://paulcomte.cafe/blog/c-screensaver/</id>
+        
+        <content type="html" xml:base="https://paulcomte.cafe/blog/c-screensaver/">&lt;h2 id=&quot;repository&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;paulcomte&#x2F;C-ScreenSaver&quot;&gt;Repository&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h2&gt;
+&lt;p&gt;While I was going back to my parents’ home, I had 6 hours to kill in the train.&lt;&#x2F;p&gt;
+&lt;p&gt;I had no internet nor any way to charge my laptop so I decided to work on something simple with libraries that my pc already had downloaded.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;items&quot;&gt;Items&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A laptop with a linux environment installed (NixOS)&lt;&#x2F;li&gt;
+&lt;li&gt;A charger with no power socket nearby&lt;&#x2F;li&gt;
+&lt;li&gt;A C compiler (gcc)&lt;&#x2F;li&gt;
+&lt;li&gt;A graphical library (SFML)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;With that in mind I had an idea that seemed trivial and not too long to implement.&lt;&#x2F;p&gt;
+&lt;p&gt;A &lt;code&gt;Screen saver&lt;&#x2F;code&gt; made in C&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;steps&quot;&gt;Steps&lt;&#x2F;h2&gt;
+&lt;p&gt;I organized the project in the following small steps:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Initialize a simple window&lt;&#x2F;li&gt;
+&lt;li&gt;Create an argument parser&lt;&#x2F;li&gt;
+&lt;li&gt;Create a tick rate system&lt;&#x2F;li&gt;
+&lt;li&gt;Implement a simple screen saver algorithm&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+        
+    </entry>
+</feed>
