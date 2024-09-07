@@ -11,6 +11,8 @@ Je viens de France 🇫🇷 ! Et je parle couramment en Anglais 🇬🇧 et j'ap
 
 Je supporte FOSS ❤️ 
 
+Expatriation au Japon à Tokyo en mars 2025 🇯🇵
+
 J'étudie actuellement en Corée à 고려대학교(Korea University) 🇰🇷
 
 ## Contact
