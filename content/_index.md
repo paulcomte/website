@@ -11,7 +11,7 @@ I come from France 🇫🇷 ! I speak fluent English 🇬🇧, and I'm currently
 
 I support FOSS ❤️ 
 
-I'm currently studying in Korea at 고려대학교(Korea University) 🇰🇷
+Moving to Japan (Tokyo) in March 2025 🇯🇵
 
 ## Contact
 
