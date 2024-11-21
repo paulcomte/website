@@ -15,6 +15,10 @@ Moving to Japan (Tokyo) in March 2025 🇯🇵
 
 ## [Download my resume](https://github.com/paulcomte/resume/releases/latest/download/Paul%20Comte%20Resume.pdf)
 
+## [Projects I worked on](./projects)
+
+## [Blog posts](./blog)
+
 ## Contact
 
 I can be reached via:
@@ -25,6 +29,3 @@ I can be reached via:
  - [Schedule an appointment with me](https://calendar.paulcomte.cafe/pc/job-interview)
 
 
-## [Projects I worked on](./projects)
-
-## [Blog posts](./blog)
