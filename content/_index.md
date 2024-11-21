@@ -13,6 +13,8 @@ I support FOSS ❤️
 
 Moving to Japan (Tokyo) in March 2025 🇯🇵
 
+## [Download my resume](https://github.com/paulcomte/resume/releases/latest/download/Paul Comte Resume.pdf)
+
 ## Contact
 
 I can be reached via:
@@ -22,7 +24,6 @@ I can be reached via:
  - Professional email: [hireme@paulcomte.cafe](mailto:hireme@paulcomte.cafe)
  - [Schedule an appointment with me](https://calendar.paulcomte.cafe/pc/job-interview)
 
-- [Download my resume](https://github.com/paulcomte/resume/releases/latest/download/resume.pdf)
 
 ## [Projects I worked on](./projects)
 
