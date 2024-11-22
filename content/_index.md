@@ -13,7 +13,7 @@ I support FOSS ❤️
 
 Moving to Japan (Tokyo) in March 2025 🇯🇵
 
-## [Download my resume](https://github.com/paulcomte/resume/releases/latest/download/Paul%20Comte%20Resume.pdf)
+## [Download my resume](https://github.com/paulcomte/resume/releases/latest/download/Paul_Comte_Resume.pdf)
 
 ## [Projects I worked on](./projects)
 
