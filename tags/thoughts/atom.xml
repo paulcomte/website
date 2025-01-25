@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Paul Comte - thoughts</title>
+    <subtitle>Paul Comte a backend software engineer, Rust, Java and C</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://paulcomte.cafe/tags/thoughts/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://paulcomte.cafe"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-25T00:00:00+00:00</updated>
+    <id>https://paulcomte.cafe/tags/thoughts/atom.xml</id>
+    <entry xml:lang="en">
+        <title>🐌 My stance on IDEs</title>
+        <published>2024-01-25T00:00:00+00:00</published>
+        <updated>2024-01-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://paulcomte.cafe/blog/my-stance-on-ides/"/>
+        <id>https://paulcomte.cafe/blog/my-stance-on-ides/</id>
+        
+        <content type="html" xml:base="https://paulcomte.cafe/blog/my-stance-on-ides/">&lt;blockquote&gt;
+&lt;p&gt;IDE stands for &lt;code&gt;Integrated Development Evironment&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;the-discovery&quot;&gt;The discovery&lt;&#x2F;h2&gt;
+&lt;p&gt;I started development around 2016, with the Java programming language, on a so-called “potato-pc”.&lt;&#x2F;p&gt;
+&lt;p&gt;I began by coding minecraft plugins, but I was &lt;strong&gt;lost&lt;&#x2F;strong&gt;, I learnt by watching tutorials, and on these tutorials, the developers were all using the &lt;code&gt;Eclipse&lt;&#x2F;code&gt; IDE, so I decided to do like them, and I gave this IDE a try.&lt;&#x2F;p&gt;
+&lt;p&gt;The experience, was… &lt;strong&gt;horrible&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;My computer, could barely handle the &lt;u&gt;&lt;em&gt;“heaviness”&lt;&#x2F;em&gt;&lt;&#x2F;u&gt; of the editor, and let’s not talk about the compilation that was taking ages where I could not use my laptop at all anymore.&lt;&#x2F;p&gt;
+&lt;p&gt;Also the IDE had many bugs with plugin development, the developers in the tutorials were saying that it was “normal”, and that I’d get used to just ignoring the warnings and errors.&lt;&#x2F;p&gt;
+&lt;p&gt;And so I did, for three months. I kept using &lt;code&gt;Eclipse&lt;&#x2F;code&gt;, I definetely lost hours through compilation, or by using the basic components of an IDE, such as going to the definition of a Java method, or implementing getters and setters.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;a-way-out&quot;&gt;A way out?&lt;&#x2F;h2&gt;
+&lt;p&gt;And then. In 2017, I started watching anoher Minecraft developer, he was typing fast, his IDE looked great, and it looked like it was performant.&lt;&#x2F;p&gt;
+&lt;p&gt;I proceeded to download &lt;code&gt;IntelliJ&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;And already, the bugs that &lt;code&gt;Eclipse&lt;&#x2F;code&gt; had, were no more. It was still slow on my computer, but it was a great progress, I could code faster.&lt;&#x2F;p&gt;
+&lt;p&gt;But what made me fall in love with &lt;code&gt;IntelliJ&lt;&#x2F;code&gt; is the design, I never took the time to customize my &lt;code&gt;Eclipse&lt;&#x2F;code&gt; experience.&lt;&#x2F;p&gt;
+&lt;p&gt;I had better performances, I had a nice background image on my code, the file icons looked great, thanks to the discovery of this new IDE, I definitely felt back in love with development, the spark rekindled.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;entering-university&quot;&gt;Entering University&lt;&#x2F;h2&gt;
+&lt;p&gt;I entered &lt;code&gt;EPITECH&lt;&#x2F;code&gt; in 2020, and during a whole month I did not use &lt;code&gt;IntelliJ&lt;&#x2F;code&gt; or any other IDEs.&lt;&#x2F;p&gt;
+&lt;p&gt;We were learning the &lt;code&gt;C&lt;&#x2F;code&gt; programming language by reading &lt;code&gt;man&lt;&#x2F;code&gt; pages, and using &lt;code&gt;emacs&lt;&#x2F;code&gt;, having no &lt;code&gt;language server&lt;&#x2F;code&gt; installed.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;For those who don’t know what a &lt;code&gt;language server&lt;&#x2F;code&gt; is, it’s a tool bundled in IDEs that will act as a &lt;code&gt;middleware&lt;&#x2F;code&gt; between your code and the features of the language. Its simplest role can be of &lt;code&gt;syntax highlighting&lt;&#x2F;code&gt;, or also look for the use of variables, classes. etc&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Even though I had the features of a basic text editor, apart from &lt;code&gt;refactoring&lt;&#x2F;code&gt; my variables or structure names, I felt like I was coding faster than with an &lt;code&gt;IDE&lt;&#x2F;code&gt; running slowly on my computer.&lt;&#x2F;p&gt;
+&lt;p&gt;I also didn’t feel the need for any &lt;code&gt;file tree&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-relapse&quot;&gt;The relapse&lt;&#x2F;h2&gt;
+&lt;p&gt;Though, once I finished the month with the basic text editor, I installed &lt;code&gt;VSCode&lt;&#x2F;code&gt;, and felt a “relief”.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;hope&quot;&gt;Hope?&lt;&#x2F;h2&gt;
+&lt;p&gt;In 2021, I learnt about the &lt;code&gt;vim&lt;&#x2F;code&gt; editor, I heard that “every cool dev”, were using it.&lt;&#x2F;p&gt;
+&lt;p&gt;So I decided to give it a try, but I felt like it was too hard, and not intuitive enough, so I gave up using it.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;actual-hope&quot;&gt;Actual hope&lt;&#x2F;h2&gt;
+&lt;p&gt;Around 2022, I was getting really “linux-nerdy”, I also wanted to use the lightest programs for everything, to save my laptop’s battery, so instead of having only 3-4 hours of battery, I’d increase it to 6-7 hours.&lt;&#x2F;p&gt;
+&lt;p&gt;I also became a big fan of the &lt;code&gt;Rust&lt;&#x2F;code&gt; programming language, and by looking for programs made in &lt;code&gt;Rust&lt;&#x2F;code&gt; on GitHub, I stumbled across &lt;code&gt;helix-editor&lt;&#x2F;code&gt;, a &lt;code&gt;vim&lt;&#x2F;code&gt; like editor, purely made in Rust.&lt;&#x2F;p&gt;
+&lt;p&gt;I decided to give &lt;code&gt;vim&lt;&#x2F;code&gt; programs another shot. And I’m grateful that I did!&lt;&#x2F;p&gt;
+&lt;p&gt;It was actuall way more intuitive than &lt;code&gt;vim&lt;&#x2F;code&gt;, and the &lt;code&gt;language servers&lt;&#x2F;code&gt; were already pre-installed.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;At the time of writing this post, &lt;code&gt;vim distros&lt;&#x2F;code&gt;, which install a version of &lt;code&gt;vim&lt;&#x2F;code&gt; with many bundled plugins, and language servers, are really famous, but I hadn’t heard of any of them in 2022.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;So I stuck with it.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;now&quot;&gt;Now?&lt;&#x2F;h2&gt;
+&lt;p&gt;To this day, &lt;code&gt;IntelliJ&lt;&#x2F;code&gt;, remains my favorite IDE, and the one that I will use whenever I’d do Java programming.&lt;&#x2F;p&gt;
+&lt;p&gt;But by using the &lt;code&gt;helix-editor&lt;&#x2F;code&gt; &lt;em&gt;(which I’m currently writing the blog with)&lt;&#x2F;em&gt;, I feel like my laptop is thanking me, and that my development workflow became better, and way faster.&lt;&#x2F;p&gt;
+&lt;p&gt;Especially on laptops, I feel like using the touchpad is a big loss of time, mouses on computers are still fine, but not having to move your hands at all, and keep your hands on your keyboard is an amazing thing.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;recommendations&quot;&gt;Recommendations&lt;&#x2F;h2&gt;
+&lt;p&gt;I don’t recommend beginners in programming the use of editors like &lt;code&gt;vim&lt;&#x2F;code&gt;, they should learn the language itself first, and once they feel confident with it, they can use &lt;code&gt;helix-editor&lt;&#x2F;code&gt; or any &lt;code&gt;vim&lt;&#x2F;code&gt; distros.&lt;&#x2F;p&gt;
+&lt;p&gt;And then, once they feel at ease with coding on &lt;code&gt;vim&lt;&#x2F;code&gt; they can fully customize it.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;rust-programming&quot;&gt;Rust programming&lt;&#x2F;h2&gt;
+&lt;p&gt;Regarding the &lt;code&gt;Rust&lt;&#x2F;code&gt; programming language, there’s currently &lt;code&gt;RustRover&lt;&#x2F;code&gt; made by &lt;code&gt;Jetbrains&lt;&#x2F;code&gt;, the creators of &lt;code&gt;IntelliJ&lt;&#x2F;code&gt;, in &lt;code&gt;Preview&lt;&#x2F;code&gt;, I used it for three good months, but I had to stop.&lt;&#x2F;p&gt;
+&lt;p&gt;Even though I have a really good laptop nowadays, when using &lt;code&gt;RustRover&lt;&#x2F;code&gt; my computer lasts at most 2 hours, and is using 4-6GB of RAM just for the &lt;code&gt;IDE&lt;&#x2F;code&gt;, that’s crazy.&lt;&#x2F;p&gt;
+&lt;p&gt;I also tried out &lt;code&gt;lapce&lt;&#x2F;code&gt;, an editor made in &lt;code&gt;Rust&lt;&#x2F;code&gt;, and it’s actually great! But it lacks stability, if you want to use it, please wait at least some months, maybe a year, until it becomes more stable.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
