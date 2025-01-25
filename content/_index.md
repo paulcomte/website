@@ -11,7 +11,7 @@ I come from France 🇫🇷 ! I speak fluent English 🇬🇧, and I'm currently
 
 I support FOSS ❤️ 
 
-Moving to Japan (Tokyo) in March 2025 🇯🇵
+Moving to Japan (Tokyo) in March 2025 for 1 year 🇯🇵
 
 ## [Download my resume](https://github.com/paulcomte/resume/releases/latest/download/Paul_Comte_Resume.pdf)
 
