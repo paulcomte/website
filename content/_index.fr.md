@@ -11,7 +11,7 @@ Je viens de France 🇫🇷 ! Et je parle couramment en Anglais 🇬🇧 et j'ap
 
 Je supporte FOSS ❤️ 
 
-Expatriation au Japon à Tokyo en mars 2025 🇯🇵
+Expatriation au Japon à Tokyo en mars 2025 pendant 1 an 🇯🇵
 
 ## Contact
 
